@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 echo "Get Google Chrome"
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -18,3 +20,6 @@ rm packages.microsoft.gpg
 sudo apt update
 
 sudo apt install code
+
+echo "Install IBUS-MOZC"
+sudo apt install ibus-mozc
