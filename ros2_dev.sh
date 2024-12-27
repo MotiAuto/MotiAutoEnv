@@ -27,3 +27,7 @@ sudo apt upgrade
 sudo apt install -y ros-jazzy-desktop
 
 source /opt/ros/jazzy/setup.bash
+
+sudo apt install python3-vcstool -y
+sudo apt install nodejs npm -y
+sudo apt install -y ros-$ROS_DISTRO-rosbridge-suite
