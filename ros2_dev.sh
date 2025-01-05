@@ -33,3 +33,7 @@ echo "----------Install vcstool, nodejs, npm and ros-webbridge----------"
 sudo apt install python3-vcstool -y
 sudo apt install nodejs npm -y
 sudo apt install -y ros-$ROS_DISTRO-rosbridge-suite
+
+echo "----------Install ROS2 Realsense Library----------"
+
+sudo apt install ros-jazzy-realsense2-* -y
