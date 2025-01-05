@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-echo "Get Google Chrome"
+echo "----------Install Google Chrome----------"
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
 
-echo "Get Visual Studio Code"
+echo "----------Install Visual Studio Code----------"
 
 sudo apt update
 sudo apt install -y wget gpg apt-transport-https 
@@ -21,5 +21,5 @@ sudo apt update
 
 sudo apt install code
 
-echo "Install IBUS-MOZC"
+echo "---------Install IBUS-MOZC----------"
 sudo apt install ibus-mozc
