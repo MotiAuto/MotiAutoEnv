@@ -37,3 +37,7 @@ sudo apt install -y ros-$ROS_DISTRO-rosbridge-suite
 echo "----------Install ROS2 Realsense Library----------"
 
 sudo apt install ros-jazzy-realsense2-* -y
+
+echo "----------Install RTAB-MAP ROS2 JAZZY----------"
+
+sudo apt install ros-jazzy-rtabmap-ros
